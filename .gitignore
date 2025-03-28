@@ -20,4 +20,3 @@ crash.log
 terraform.tfvars
 *.tfvars.json
 .terraform.lock.hcl
-terragrunt.hcl
