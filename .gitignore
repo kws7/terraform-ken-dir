@@ -1,0 +1,23 @@
+# Local cache dirs
+.terraform/
+.terragrunt-cache/
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# Logs and backups
+crash.log
+*.log
+*.bak
+*.backup
+
+# Archives
+*.zip
+*.tar.gz
+
+# Sensitive or temp files
+terraform.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+terragrunt.hcl
